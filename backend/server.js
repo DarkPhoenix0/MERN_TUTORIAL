@@ -18,5 +18,4 @@ app.get('/api/notes/:id', (req, res)=>{
 })
 
 const PORT = process.env.PORT ||3001 // ||3001 sera le port par défaut
-
 app.listen(PORT, console.log(`running on port ${PORT}`))
