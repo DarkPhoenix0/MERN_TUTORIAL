@@ -1,0 +1,41 @@
+.my_note_children_container{
+    margin-top: 20px;
+}
+
+button.creat_new_note{
+    padding: 0.5em 1em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.note_card{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.note_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.note_header button{
+    padding: 0.3em 0.5em;
+    margin-left: 5px;
+}
+
+.note_body{
+    background-color: #fafafa;
+    height: 0;
+    overflow: hidden;
+    transition: 0.35s ease;
+    overflow-y: auto;
+}
+div.note_card:hover .note_body{
+    height: 150px;
+    padding: 10px;
+}

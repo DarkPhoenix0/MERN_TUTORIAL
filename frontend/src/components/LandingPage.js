@@ -7,10 +7,10 @@ function LandingPage() {
             <h1>Welcome to Kira landing page</h1>
             <p>One Safe Place for All Your Notes</p>
             <div className="button_container">
-                <a href="">
+                <a href="#">
                     <button className="sign_btn">SIGN UP</button>
                 </a>
-                <a href="">
+                <a href="#">
                     <button className="login_btn">LOGIN</button>
                 </a>
             </div>
